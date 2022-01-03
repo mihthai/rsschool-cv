@@ -30,3 +30,14 @@ alert( result );
 
 ## __Experience__
 Basically, various entrepreneurial activities. Currently, a manager in a logistics company.
+
+## __Education__ 
+- __College:__ Magadan Polytechnic College, Electrical equipment of industrial enterprises.
+- __Courses:__
+  - [Code Basics HTML](https://ru.code-basics.com/languages/html)
+  - [Code Basics CSS](https://ru.code-basics.com/languages/css)
+  - [Code Basics JavaScript](https://ru.code-basics.com/languages/javascript)
+  - [Hexlet Intro To Git](https://ru.hexlet.io/courses/intro_to_git)
+
+## __English__
+__A2__ (I have practiced English for 4.5 years during my traveling in various countries of Southeast Asia, mainly Thailand and Vietnam.)
