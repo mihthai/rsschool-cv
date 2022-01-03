@@ -17,3 +17,16 @@ I'd like to become a professional full stack developer, i.e. the person who can 
 - CSS
 - JavaScript (Basic)
 - Git / GitHub
+
+## __Code Example__
+```
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+```
+
+## __Experience__
+Basically, various entrepreneurial activities. Currently, a manager in a logistics company.
