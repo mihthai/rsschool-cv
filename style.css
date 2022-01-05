@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth; 
+  }
+
 @font-face {
     font-family: 'Roboto';
     src: url("assets/fonts/Roboto-Light.ttf");
@@ -16,6 +20,7 @@
   * {
     box-sizing: border-box;
   }
+  
 
   .nav-list {
     display: flex;
@@ -31,3 +36,20 @@
     color: rgb(59, 224, 59);
     text-decoration: none;
   }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+  .my-foto{
+      width: 30%;
+  }
+  .profile-container{
+    display: inline-block;
+    margin-left: 70px;
+    
+   }
