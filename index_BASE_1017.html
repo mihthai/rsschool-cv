@@ -13,10 +13,6 @@
 
 <body>
     <header class="header">
-        <div class="profile-container">
-            <h1> Mikhail Aksamitov </h1>
-            <h2>Frontend developer</h2>
-        </div>
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
@@ -33,7 +29,10 @@
     <main class="main-container">
         <section class="section" id="profile">
             <img class="my-foto"    src="./assets/img/my-foto.png" alt="My_foto">
-           
+            <div class="profile-container">
+            <h1> Mikhail Aksamitov </h1>
+            <h2>Frontend developer</h2>
+        </div>
         </section>
         <section class="section" id="contacts">
             <h2> Contacts </h2>
@@ -65,7 +64,7 @@
         <section class="section" id="skills">
             <h2> Skills </h2>
 
-            <ul >
+            <ul>
                 <li>HTML</li>
 
                 <li>CSS</li>
@@ -103,13 +102,13 @@ alert( result );
 
 
                     <ul>
-                        <li><a class="skill__links" href="https://ru.code-basics.com/languages/html">Code Basics HTML</a></li>
+                        <li><a href="https://ru.code-basics.com/languages/html">Code Basics HTML</a></li>
 
-                        <li><a class="skill__links" href="https://ru.code-basics.com/languages/css">Code Basics CSS</a></li>
+                        <li><a href="https://ru.code-basics.com/languages/css">Code Basics CSS</a></li>
 
-                        <li><a class="skill__links" href="https://ru.code-basics.com/languages/javascript">Code Basics JavaScript</a></li>
+                        <li><a href="https://ru.code-basics.com/languages/javascript">Code Basics JavaScript</a></li>
 
-                        <li><a class="skill__links" href="https://ru.hexlet.io/courses/intro_to_git">Hexlet Intro To Git</a></li>
+                        <li><a href="https://ru.hexlet.io/courses/intro_to_git">Hexlet Intro To Git</a></li>
                     </ul>
                 </li>
             </ul>
@@ -126,18 +125,16 @@ alert( result );
 
     <footer class="footer">
 
-
-        
+        <div>
             <ul class="footer__links">
-                <li class="footer__item"><a class="footer__item__link" href="https://github.com/mihthai">Mikhail
-                    Aksamitov 2022</a>
-            </li>
-                <li class="footer__item"><a  href="https://rs.school/js-stage0/"><img class ="rss-logo" src="./assets/svg/rs_school_js.svg" alt="rs_school_js_logo"></a>
-                        </li>
-            </ul> 
+                <li class="footer__item"><a class="footer__link__course" href="https://rs.school/js-stage0/">RS
+                        School</a></li>
+                <li class="footer__item"><a class="footer__link__github" href="https://github.com/mihthai">Mikhail
+                        Aksamitov 2022</a>
+                </li>
 
-        
-           
+            </ul>
+        </div>
 
 
 

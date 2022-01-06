@@ -33,23 +33,51 @@ html {
     padding: 0 10px;
     line-height: 40px;
     font-size: 16px;
-    color: rgb(59, 224, 59);
+    color: rgb(28, 16, 134);
     text-decoration: none;
   }
 
   .main-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 10%;
   }
   
   .section {
-    width: 50%;
+    width: 45%;
   }
   .my-foto{
       width: 30%;
   }
   .profile-container{
-      width: 40%;
+
+    display: inline-block;
+    margin-left: 70px;
+    
+   }
+
+   .rss-logo{
+     height: 30px;
+   }
+
+   
+   .footer__item{
+    align-items: center;
+    list-style: none; 
+     }
+
+     .footer__item__link{
+      color: rgb(28, 16, 134);
+      text-decoration: none;
+     }
+
+     .skill__links{
+      color: rgb(28, 16, 134);
+      text-decoration: none;
+
+     }
+.profile-container{
+      width: 30%;
 
      }
     .nav{
@@ -79,15 +107,19 @@ html {
     }
   }
 
-  .footer {
+ 
+ 
+  .footer__links{
     display: flex;
-    flex-wrap: wrap;
-  }
+    gap: 70%;
+    }
+    .footer-links{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
+      flex-wrap: wrap;
+      flex-wrap: nowrap
+      
+    }
 
-  .footer-links{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-    flex-wrap: nowrap;
-  }
